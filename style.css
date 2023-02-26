@@ -1,0 +1,162 @@
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    padding: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+ header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .icon_color {
+    color: gray;
+ }
+ a {
+    text-decoration: none;
+    color: gray;
+ }
+
+h1 {
+    font-size: 9rem;
+    font-family: 'Roboto', sans-serif
+}
+
+.search_input {
+    padding: 0.9rem 6rem;
+    border-radius: 5rem;
+    border: hidden;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    
+}
+
+form {
+    position: relative;
+}
+
+.search{
+ position: absolute;
+ right: 0;
+ top: 0.5rem;
+ left: 1rem;
+width: 0;
+ color: gray;
+}
+
+.mic {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+   
+    color: gray;
+}
+.camera {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    color: gray;
+}
+.google {
+    font-size: 10rem;
+}
+
+.blue {
+    color: blue;
+}
+.red{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+.green {
+    color: green;
+}
+
+svg {
+    width: 30rem;
+}
+
+i {
+    font-size: 4rem;
+}
+
+.advanced_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 10rem;
+}
+
+.wrapper_advanced {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vw;
+}
+
+.advanced_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  input {
+    padding: 0.5rem 4rem;
+  }
+ 
+
+.advanced_title {
+    font-size: 2rem;
+    color: brown;
+    height: 20vh;
+}
+
+.advanced_btn {
+    grid-column: 2 / 2;
+    background-color:	hsl(200, 61%, 50%);
+    width: 15rem;
+    font-size: 1rem;
+    color: aliceblue;
+    border: none;
+    padding: 0.9rem 1rem;
+    justify-self: end;
+}
+
+.luckybtn {
+    padding-top: 3rem;
+    justify-content: center;
+    border-radius: 1rem;
+}
